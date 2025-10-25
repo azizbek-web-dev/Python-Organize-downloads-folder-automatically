@@ -120,6 +120,17 @@ python scheduler.py --mode weekly --time 09:00
 
 Stop the scheduler with `Ctrl+C`
 
+**Windows Task Scheduler (Runs even after computer restart):**
+
+Install as a Windows scheduled task that runs automatically:
+
+```bash
+# Run as Administrator
+install_task_scheduler.bat
+```
+
+This will create a daily task that runs at 9 AM, even if you're not logged in.
+
 ---
 
 <div align="center">
