@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📁 Downloads Folder Organizer
+# 📁 Downloads folder organizer
 
 **Automatically organize your Downloads folder by sorting files into subfolders based on their file type**
 
@@ -19,21 +19,21 @@ Python script that automatically organizes files in your Downloads folder by sor
 
 <div align="center">
 
-## ✨ Features
+## Features
 
 </div>
 
-- 🚀 **Automatic Organization** - Sorts files into appropriate category folders based on file type
-- 🔄 **Duplicate Handling** - Automatically renames duplicate files instead of overwriting them
-- 📊 **Statistics Report** - Shows summary of organized files and duplicates
-- 🛠️ **No Dependencies** - Uses only Python's standard library
-- 💡 **Well Commented** - Easy to understand and modify
-- ⚡ **Fast Processing** - Efficient file handling with progress tracking
-- 🔒 **Safe Operations** - Only moves files within the Downloads folder
+-  **Automatic Organization** - Sorts files into appropriate category folders based on file type
+-  **Duplicate Handling** - Automatically renames duplicate files instead of overwriting them
+-  **Statistics Report** - Shows summary of organized files and duplicates
+-  **No Dependencies** - Uses only Python's standard library
+-  **Well Commented** - Easy to understand and modify
+-  **Fast Processing** - Efficient file handling with progress tracking
+-  **Safe Operations** - Only moves files within the Downloads folder
 
 <div align="center">
 
-## 📂 File Categories
+## 📂 File categories
 
 </div>
 
@@ -67,17 +67,17 @@ The script organizes files into the following folders:
 </div>
 
 ```bash
-git clone https://github.com/azizbek-web-dev/Python---Organize-downloads-folder-automatically.git
+git clone https://github.com/azizbek-web-dev/Python-Organize-downloads-folder-automatically.git
 cd Python---Organize-downloads-folder-automatically
 ```
 
-## 📖 Usage
+## Usage
 
 ```bash
 python organize_downloads.py
 ```
 
-### Custom Path
+### Custom path
 
 To organize a different folder, modify the script and pass a custom path:
 
@@ -90,7 +90,7 @@ organizer.organize_files()
 
 <div align="center">
 
-## 📊 Example Output
+## Example output
 
 </div>
 
@@ -98,7 +98,7 @@ organizer.organize_files()
 
 ```
 ============================================================
-Downloads Folder Organizer
+Downloads folder organizer
 ============================================================
 
 Organizing files in: C:\Users\YourName\Downloads
@@ -108,7 +108,7 @@ image.jpg -> images/image.jpg
 video.mp4 -> videos/video.mp4
 Renamed duplicate: document.pdf -> document_1.pdf
 ------------------------------------------------------------
-Organization Summary:
+Organization summary:
   Total files found: 25
   Files organized: 25
   Duplicates renamed: 3
@@ -121,7 +121,7 @@ Your Downloads folder is now organized.
 
 <div align="center">
 
-## 🔧 How It Works
+## How it works
 
 </div>
 
@@ -129,18 +129,18 @@ The script scans your Downloads folder, identifies file types by extension, sort
 
 <div align="center">
 
-## 🔒 Safety Features
+## afety features
 
 </div>
 
-- **Safe Operations** - Only moves files within the Downloads folder
-- **No Data Loss** - Duplicate files are renamed instead of overwriting
-- **Error Handling** - Graceful handling of files that cannot be moved
-- **Structure Preserved** - Maintains Downloads folder structure
+- **Safe operations** - Only moves files within the Downloads folder
+- **No data loss** - Duplicate files are renamed instead of overwriting
+- **Error handling** - Graceful handling of files that cannot be moved
+- **Structure preserved** - Maintains Downloads folder structure
 
 <div align="center">
 
-## ⚙️ Customization
+## Customization
 
 </div>
 
@@ -157,7 +157,7 @@ FILE_CATEGORIES = {
 
 <div align="center">
 
-## 📝 Notes
+## Notes
 
 </div>
 
@@ -169,11 +169,11 @@ FILE_CATEGORIES = {
 
 <div align="center">
 
-## 🎯 Tech Stack
+## Tech stack
 
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=306998)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-**Made with ❤️ for organized Downloads folders**
+**Made with ❤️ for organized downloads folders**
 
 </div>
