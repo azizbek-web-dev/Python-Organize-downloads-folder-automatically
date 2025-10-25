@@ -1,48 +1,100 @@
-# Downloads Folder Organizer
+<div align="center">
 
-Python skripti, yuklab olingan fayllarni turli formatlar bo'yicha to'g'ri papkalarga avtomatik tashlab beradi. Skript Pythonning standart kutubxonasidan foydalanadi va to'liq sharhlangan kod bo'lib, har bir funksiya aniq izoh berilgan. Ikki xil fayl uzanib qolsa, ikkinchisiga raqam qo'shib qo'yadi. Jarayon yakunida hisobot ko'rsatadi.
+# 📁 Downloads Folder Organizer
 
-## Xususiyatlar
+**Automatically organize your Downloads folder by sorting files into subfolders based on their file type**
 
-Skript quyidagi imkoniyatlarga ega. Fayllar avtomatik ravishda tegishli papkalarga tushadi. Agar papkada xuddi shu nomdagi fayl bo'lsa, yangi faylga raqam qo'shib saqlashadi. Ishlash tugallangacha fayl topish, qayerga qo'yilishi va barqaror ishlash holatini kuzatib boradi. Oxirida umumiy statistik ma'lumot ko'rsatiladi. Tashqi kutubxonalar kerak emas, faqat Python o'zi yetadi. Kodga ko'z tashlasangiz, har bir qismi tushunarli va alohida sharhlangan.
+[![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-## Fayl Kategoriyalari
+![Downloads Organizer](https://img.shields.io/badge/Status-Active-success)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20MacOS-lightgrey)
 
-Bu script fayllarni quyidagi papkalarga ajratadi. Rasmlar uchun images papkasiga, video fayllar uchun videos papkasiga, musiqa uchun music papkasiga, hujjatlar uchun documents papkasiga, arxivlar uchun archives papkasiga, dasturlar uchun executables papkasiga, kod fayllari uchun code papkasiga, fontlar uchun fonts papkasiga, jadvallar uchun spreadsheets papkasiga, taqdimotlar uchun presentations papkasiga tushadi. Agar fayl qo'shimcha kategoriyalarga mos kelmasa, others papkasiga qo'yiladi.
+</div>
 
-Rasm formatlari: jpg, jpeg, png, gif, bmp, svg, webp, ico, tiff, heic. Video formatlari: mp4, avi, mov, mkv, flv, wmv, webm, m4v, 3gp. Musiqa formatlari: mp3, wav, flac, aac, ogg, wma, m4a. Hujjatlar: pdf, doc, docx, txt, rtf, xls, xlsx, ppt, pptx, csv. Arxivlar: zip, rar, 7z, tar, gz, bz2, xz, iso. Dasturlar: exe, msi, dmg, pkg, deb, rpm, appimage. Kod: py, js, html, css, java, cpp, c, php, rb, go, ts. Fontlar: ttf, otf, woff, woff2, eot. Jadval formatlari: csv, xlsx, xls, ods. Taqdimotlar: pptx, ppt, odp.
+---
 
-## Talablar
+Python script that automatically organizes files in your Downloads folder by sorting them into subfolders based on their file type. Uses only Python's standard library and handles duplicate files intelligently with auto-renaming. Provides detailed statistics and progress reports throughout the organization process.
 
-Bu loyihani ishga tushirish uchun Python 3.6 yoki undan yuqori versiya o'rnatilgan bo'lishi kerak. Qo'shimcha kutubxonalar talab qilinmaydi, faqat Python standart kutubxonasi ishlatiladi.
+<div align="center">
 
-## O'rnatish
+## ✨ Features
 
-Birinchidan, GitHub'dan loyihani clone qilib oling. Terminal yoki cmd ochib quyidagi buyruqlarni bajaring. Avval repository'ni klonlang, so'ng loyiha papkasiga kirib oling. Boshqa hech narsa o'rnatish shart emas, faqat Python bilan skriptni ishga tushiring.
+</div>
+
+- 🚀 **Automatic Organization** - Sorts files into appropriate category folders based on file type
+- 🔄 **Duplicate Handling** - Automatically renames duplicate files instead of overwriting them
+- 📊 **Statistics Report** - Shows summary of organized files and duplicates
+- 🛠️ **No Dependencies** - Uses only Python's standard library
+- 💡 **Well Commented** - Easy to understand and modify
+- ⚡ **Fast Processing** - Efficient file handling with progress tracking
+- 🔒 **Safe Operations** - Only moves files within the Downloads folder
+
+<div align="center">
+
+## 📂 File Categories
+
+</div>
+
+The script organizes files into the following folders:
+
+| Category | Supported Extensions |
+|----------|---------------------|
+| 🖼️ **Images** | `.jpg`, `.jpeg`, `.png`, `.gif`, `.bmp`, `.svg`, `.webp`, `.ico`, `.tiff`, `.heic` |
+| 🎥 **Videos** | `.mp4`, `.avi`, `.mov`, `.mkv`, `.flv`, `.wmv`, `.webm`, `.m4v`, `.3gp` |
+| 🎵 **Music** | `.mp3`, `.wav`, `.flac`, `.aac`, `.ogg`, `.wma`, `.m4a` |
+| 📄 **Documents** | `.pdf`, `.doc`, `.docx`, `.txt`, `.rtf`, `.xls`, `.xlsx`, `.ppt`, `.pptx`, `.csv` |
+| 📦 **Archives** | `.zip`, `.rar`, `.7z`, `.tar`, `.gz`, `.bz2`, `.xz`, `.iso` |
+| ⚙️ **Executables** | `.exe`, `.msi`, `.dmg`, `.pkg`, `.deb`, `.rpm`, `.appimage` |
+| 💻 **Code** | `.py`, `.js`, `.html`, `.css`, `.java`, `.cpp`, `.c`, `.php`, `.rb`, `.go`, `.ts` |
+| 🔤 **Fonts** | `.ttf`, `.otf`, `.woff`, `.woff2`, `.eot` |
+| 📊 **Spreadsheets** | `.csv`, `.xlsx`, `.xls`, `.ods` |
+| 📽️ **Presentations** | `.pptx`, `.ppt`, `.odp` |
+| ❓ **Others** | Any file types not in the above categories |
+
+<div align="center">
+
+## 📋 Requirements
+
+- **Python 3.6 or higher**
+- No additional packages required (uses only standard library)
+
+---
+
+## 🚀 Installation
+
+</div>
 
 ```bash
 git clone https://github.com/azizbek-web-dev/Python---Organize-downloads-folder-automatically.git
 cd Python---Organize-downloads-folder-automatically
 ```
 
-## Qanday Ishlatiladi
-
-Skriptni ishga tushirish uchun terminalda yoki PowerShellda quyidagi buyruqni kiriting. Bu skript avtomatik ravishda Downloads papkangizdagi barcha fayllarni to'g'ri papkalarga tashlab beradi. Har bir fayl qayerda borligini ekranga chiqaradi va yakunida jami qancha fayl ko'chirilgani haqida hisobot beradi.
+## 📖 Usage
 
 ```bash
 python organize_downloads.py
 ```
 
-Agar Downloads papkasi o'rniga boshqa papkani tartibga solmoqchi bo'lsangiz, koddagi downloads_path o'zgaruvchisiga kerakli manzilni kiriting va sakriptni o'sha papka uchun moslashtiring.
+### Custom Path
+
+To organize a different folder, modify the script and pass a custom path:
 
 ```python
 organizer = DownloadsOrganizer(downloads_path="C:/Users/YourName/Desktop/MyFolder")
 organizer.organize_files()
 ```
 
-## Ishlash Natijasi
+---
 
-Skript ishga tushirilganda quyidagi kabi chiqadi. Avval skript nomi va murojaat ko'rsatiladi, so'ng Downloads papkasi qidiriladi va tarkibi tekshiriladi. Har bir fayl ko'chirilganda qaysi papkaga qo'yilgani ko'rsatiladi. Agar takroriy fayl bo'lsa, unga raqam qo'shib saqlanadi. Yakunida jami qancha fayl topilgani, qanchasini tashlaganlari, qanchasi takroriy bo'lgani va xatolar miqdori ko'rsatiladi.
+<div align="center">
+
+## 📊 Example Output
+
+</div>
+
+
 
 ```
 ============================================================
@@ -65,19 +117,35 @@ Organization Summary:
 Your Downloads folder is now organized.
 ```
 
-## Qanday Ishlaydi
+---
 
-Skript ishga tushganda Downloads papkasini to'liq ko'rib chiqadi va har bir faylni o'qidi. Keyin fayl kengaytmasi asosida qaysi kategoriyaga tegishli ekanligini aniqlaydi. Fayllar tegishli papkalarga ko'chiriladi va takroriy fayllar uchun raqam qo'shiladi. Jarayon tugagandan so'ng hisobot ko'rsatiladi.
+<div align="center">
 
-## Xavfsizlik
+## 🔧 How It Works
 
-Skript faqat Downloads papkasi ichidagi fayllarni ko'chirib beradi, tashqariga chiqmaydi. Takroriy fayllar o'rniga yangi raqam qo'shiladi, tushmaydigan fayllar uchun xato bilan ishlash kodi bor. Fayllar o'chirilmaydi, faqat ko'chiriladi va Downloads papkasining asl struktura saqlanadi.
+</div>
 
-## O'zgartirish
+The script scans your Downloads folder, identifies file types by extension, sorts files into category folders, and handles duplicates by adding number suffixes. A summary report is displayed at the end showing total files organized, duplicates renamed, and any errors encountered.
 
-Agar yangi kategoriya qo'shmoqchi bo'lsangiz, organize_downloads.py faylini oching va FILE_CATEGORIES lug'atiga yangi qator qo'shing. Papka nomlarini o'zgartirmoqchi bo'lsangiz, lug'at kalitlarini yangilang. Yangi fayl formatlarini qo'shmoqchi bo'lsangiz, tegishli kategoriya ichiga kiriting.
+<div align="center">
 
-Misol uchun:
+## 🔒 Safety Features
+
+</div>
+
+- **Safe Operations** - Only moves files within the Downloads folder
+- **No Data Loss** - Duplicate files are renamed instead of overwriting
+- **Error Handling** - Graceful handling of files that cannot be moved
+- **Structure Preserved** - Maintains Downloads folder structure
+
+<div align="center">
+
+## ⚙️ Customization
+
+</div>
+
+To customize the script, modify the `FILE_CATEGORIES` dictionary in `organize_downloads.py`:
+
 ```python
 FILE_CATEGORIES = {
     'images': ['.jpg', '.jpeg', '.png', '.your-extension'],
@@ -85,6 +153,27 @@ FILE_CATEGORIES = {
 }
 ```
 
-## Qo'shimcha Ma'lumotlar
+---
 
-Skript faqat Downloads papkasining asosiy papkasidagi fayllarni tartibga oladi, ichki papkalarga kirmaydi. Kategoriya papkalarida allaqachon bo'lgan fayllar o'chirilmaydi, faqat yangilariga raqam qo'shiladi. Skriptni istalgan vaqtda ishga tushirib, Downloads papkangizni tartibda saqlashingiz mumkin.
+<div align="center">
+
+## 📝 Notes
+
+</div>
+
+- The script only organizes files in the Downloads folder root directory, not subdirectories
+- Existing files in category folders are not overwritten - duplicates are automatically renamed
+- You can run the script as often as you want to keep your Downloads folder organized
+
+---
+
+<div align="center">
+
+## 🎯 Tech Stack
+
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=306998)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+
+**Made with ❤️ for organized Downloads folders**
+
+</div>
