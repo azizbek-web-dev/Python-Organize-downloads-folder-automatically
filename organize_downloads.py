@@ -151,7 +151,7 @@ class DownloadsOrganizer:
         # Move the file
         shutil.move(str(file_path), str(destination))
         self.stats['organized'] += 1
-        print(f"✓ {file_path.name} -> {category}/{destination.name}")
+        print(f"{file_path.name} -> {category}/{destination.name}")
     
     def _print_summary(self):
         """Print summary statistics of the organization process."""
@@ -161,7 +161,7 @@ class DownloadsOrganizer:
         print(f"  Files organized: {self.stats['organized']}")
         print(f"  Duplicates renamed: {self.stats['duplicates_renamed']}")
         print(f"  Errors: {self.stats['errors']}")
-        print(f"\nYour Downloads folder is now organized! 🎉")
+        print(f"\nYour Downloads folder is now organized.")
 
 
 def main():
