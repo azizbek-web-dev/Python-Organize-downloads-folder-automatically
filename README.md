@@ -6,6 +6,8 @@
 
 **Automatically organize your Downloads folder by sorting files into subfolders based on their file type**
 
+![Downloads Organizer](image.png)
+
 [![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
