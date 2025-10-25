@@ -23,13 +23,13 @@ Python script that automatically organizes files in your Downloads folder by sor
 
 </div>
 
--  **Automatic Organization** - Sorts files into appropriate category folders based on file type
--  **Duplicate Handling** - Automatically renames duplicate files instead of overwriting them
--  **Statistics Report** - Shows summary of organized files and duplicates
--  **No Dependencies** - Uses only Python's standard library
--  **Well Commented** - Easy to understand and modify
--  **Fast Processing** - Efficient file handling with progress tracking
--  **Safe Operations** - Only moves files within the Downloads folder
+- 🚀 **Automatic Organization** - Sorts files into appropriate category folders based on file type
+- 🔄 **Duplicate Handling** - Automatically renames duplicate files instead of overwriting them
+- 📊 **Statistics Report** - Shows summary of organized files and duplicates
+- 🛠️ **No Dependencies** - Uses only Python's standard library
+- 💡 **Well Commented** - Easy to understand and modify
+- ⚡ **Fast Processing** - Efficient file handling with progress tracking
+- 🔒 **Safe Operations** - Only moves files within the Downloads folder
 
 <div align="center">
 
@@ -55,20 +55,20 @@ The script organizes files into the following folders:
 
 <div align="center">
 
-## 📋 Requirements
+## Requirements
 
 - **Python 3.6 or higher**
 - No additional packages required (uses only standard library)
 
 ---
 
-## 🚀 Installation
+## Installation
 
 </div>
 
 ```bash
 git clone https://github.com/azizbek-web-dev/Python-Organize-downloads-folder-automatically.git
-cd Python---Organize-downloads-folder-automatically
+cd Python-Organize-downloads-folder-automatically
 ```
 
 ## Usage
@@ -129,7 +129,7 @@ The script scans your Downloads folder, identifies file types by extension, sort
 
 <div align="center">
 
-## afety features
+## Safety features
 
 </div>
 
