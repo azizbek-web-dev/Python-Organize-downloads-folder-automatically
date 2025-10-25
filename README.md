@@ -2,6 +2,8 @@
 
 # 📁 Downloads folder organizer
 
+**[O'zbek tilida 🇺🇿](README_UZ.md)** | **[In English 🇬🇧](README.md)**
+
 **Automatically organize your Downloads folder by sorting files into subfolders based on their file type**
 
 [![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://www.python.org/downloads/)
