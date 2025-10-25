@@ -27,6 +27,7 @@ Python script that automatically organizes files in your Downloads folder by sor
 - **Duplicate handling** - Automatically renames duplicate files instead of overwriting them
 - **Statistics report** - Shows summary of organized files and duplicates
 - **Scheduled automation** - Run automatically on daily, hourly, or custom intervals
+- **Real-time monitoring** - Watches Downloads folder and organizes files as soon as they appear
 - **Well commented** - Easy to understand and modify
 - **Fast processing** - Efficient file handling with progress tracking
 - **Safe operations** - Only moves files within the Downloads folder
@@ -130,6 +131,21 @@ install_task_scheduler.bat
 ```
 
 This will create a daily task that runs at 9 AM, even if you're not logged in.
+
+### Real-time monitoring
+
+Watch Downloads folder and automatically organize files as soon as they appear:
+
+```bash
+python watcher.py
+```
+
+Customize check interval (default is 2 seconds):
+```bash
+python watcher.py --interval 5
+```
+
+This will continuously monitor the Downloads folder and organize files immediately when they are added.
 
 ---
 
