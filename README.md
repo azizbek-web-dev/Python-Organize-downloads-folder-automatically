@@ -147,6 +147,17 @@ python watcher.py --interval 5
 
 This will continuously monitor the Downloads folder and organize files immediately when they are added.
 
+**Make watcher run on Windows startup:**
+
+Install the watcher to automatically start when Windows boots:
+
+```bash
+# Run as Administrator
+install_watcher_task.bat
+```
+
+This will make the watcher run continuously in the background, watching for new files even after computer restart.
+
 ---
 
 <div align="center">
