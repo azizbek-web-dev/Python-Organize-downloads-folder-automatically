@@ -162,6 +162,20 @@ install_watcher_task.bat
 
 Bu watcher'ni fon rejimida doimiy ishlaydigan qilib qo'yadi, kompyuter qaytadan yuklanganidan keyin ham yangi fayllarni kuzatib turadi.
 
+**Mac/Linux foydalanuvchilar uchun:**
+
+Rejalashtirilgan vazifalar uchun:
+```bash
+chmod +x install_task_scheduler.sh
+./install_task_scheduler.sh
+```
+
+Watcher'ni ishga tushishi bilan ishlash uchun:
+```bash
+chmod +x install_watcher_task.sh
+./install_watcher_task.sh
+```
+
 ---
 
 <div align="center">

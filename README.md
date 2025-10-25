@@ -162,6 +162,20 @@ install_watcher_task.bat
 
 This will make the watcher run continuously in the background, watching for new files even after computer restart.
 
+**Mac/Linux users:**
+
+For scheduled tasks:
+```bash
+chmod +x install_task_scheduler.sh
+./install_task_scheduler.sh
+```
+
+For watcher on startup:
+```bash
+chmod +x install_watcher_task.sh
+./install_watcher_task.sh
+```
+
 ---
 
 <div align="center">
