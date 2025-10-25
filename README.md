@@ -26,7 +26,7 @@ Python script that automatically organizes files in your Downloads folder by sor
 - **Automatic organization** - Sorts files into appropriate category folders based on file type
 - **Duplicate handling** - Automatically renames duplicate files instead of overwriting them
 - **Statistics report** - Shows summary of organized files and duplicates
-- **No dependencies** - Uses only Python's standard library
+- **Scheduled automation** - Run automatically on daily, hourly, or custom intervals
 - **Well commented** - Easy to understand and modify
 - **Fast processing** - Efficient file handling with progress tracking
 - **Safe operations** - Only moves files within the Downloads folder
@@ -58,7 +58,7 @@ The script organizes files into the following folders:
 ## Requirements
 
 - **Python 3.6 or higher**
-- No additional packages required (uses only standard library)
+- **schedule** package (for automatic scheduling feature)
 
 ---
 
@@ -71,7 +71,15 @@ git clone https://github.com/azizbek-web-dev/Python-Organize-downloads-folder-au
 cd Python-Organize-downloads-folder-automatically
 ```
 
+Install the required package:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Usage
+
+### Basic Usage
 
 ```bash
 python organize_downloads.py
@@ -85,6 +93,32 @@ To organize a different folder, modify the script and pass a custom path:
 organizer = DownloadsOrganizer(downloads_path="C:/Users/YourName/Desktop/MyFolder")
 organizer.organize_files()
 ```
+
+### Automatic scheduling
+
+Run the organizer automatically on a schedule:
+
+**Daily at specific time:**
+```bash
+python scheduler.py --mode daily --time 09:00
+```
+
+**Every hour:**
+```bash
+python scheduler.py --mode hourly
+```
+
+**Every N hours:**
+```bash
+python scheduler.py --mode interval --interval 12
+```
+
+**Weekly:**
+```bash
+python scheduler.py --mode weekly --time 09:00
+```
+
+Stop the scheduler with `Ctrl+C`
 
 ---
 
